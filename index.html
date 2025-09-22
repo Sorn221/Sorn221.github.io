@@ -33,6 +33,9 @@
                             <a class="nav-link" href="#main">Главная</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#coaches">Тренеры</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#advantages">Преимущества</a>
                         </li>
                         <li class="nav-item">
@@ -57,25 +60,86 @@
     <section id="main" class="hero-section">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image: url('assets/img/slide1.jpg');">
+                <div class="swiper-slide" style="background-image: url('assets/img/1.jpg');">
                     <div class="swiper-content container">
                         <h1>Стань сильнее в клубе <span class="text-accent">CARD</span></h1>
                         <p class="lead">Профессиональные тренеры, современный зал и атмосфера чемпионов.</p>
                         <a href="https://wa.me/79991234567?text=Здравствуйте! Я хочу записаться на пробную тренировку." class="btn btn-primary btn-lg" target="_blank">Записаться на тренировку</a>
                     </div>
                 </div>
-                <div class="swiper-slide" style="background-image: url('assets/img/slide2.jpg');">
+                <div class="swiper-slide" style="background-image: url('assets/img/2.jpg');">
                     <div class="swiper-content container">
                         <h1>Индивидуальный подход</h1>
                         <p class="lead">Мы найдем программу тренировок именно для вас, независимо от уровня подготовки.</p>
                         <a href="https://wa.me/79991234567?text=Здравствуйте! Я хочу записаться на пробную тренировку." class="btn btn-primary btn-lg" target="_blank">Записаться на тренировку</a>
                     </div>
                 </div>
-                <!-- Добавьте еще слайды по необходимости -->
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+        <!-- Тренерский состав -->
+    <section id="coaches" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Тренерский состав</h2>
+            <div class="row justify-content-center g-4">
+                <div class="col-lg-6">
+                    <div class="coach-card">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <div class="coach-photo">
+                                    <img src="assets/img/3.jpg" alt="Артем Яковлев" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="coach-info">
+                                    <h3>Артем Яковлев</h3>
+                                    <div class="coach-achievements">
+                                        <ul>
+                                            <li>Мастер спорта по боксу</li>
+                                            <li>Чемпион России 2020</li>
+                                            <li>Призер международных турниров</li>
+                                            <li>Опыт тренерской работы: 8 лет</li>
+                                            <li>Высшее спортивное образование</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="coach-card">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <div class="coach-photo">
+                                    <img src="assets/img/4.jpg" alt="Владимир Плясов" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="coach-info">
+                                    <h3>Владимир Плясов</h3>
+                                    <div class="coach-achievements">
+                                        <ul>
+                                            <li>Кандидат в мастера спорта по боксу</li>
+                                            <li>Победитель чемпионата области</li>
+                                            <li>Серебряный призер СФО</li>
+                                            <li>Опыт тренерской работы: 5 лет</li>
+                                            <li>Специализация: работа с новичками</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Место для будущих тренеров -->
+            </div>
         </div>
     </section>
 
@@ -111,7 +175,6 @@
                         <p>Выбирайте формат, который подходит именно вам.</p>
                     </div>
                 </div>
-                <!-- Добавьте еще преимущества -->
             </div>
         </div>
     </section>
@@ -171,17 +234,12 @@
                                 <tr>
                                     <td>Разовое посещение</td>
                                     <td>1</td>
-                                    <td>1 000 ₽</td>
+                                    <td>500 ₽</td>
                                 </tr>
                                 <tr>
                                     <td>Стандарт</td>
-                                    <td>8</td>
-                                    <td>5 600 ₽</td>
-                                </tr>
-                                <tr>
-                                    <td>Безлимитный</td>
-                                    <td>∞</td>
-                                    <td>7 000 ₽</td>
+                                    <td>12</td>
+                                    <td>4 000 ₽</td>
                                 </tr>
                                 <tr>
                                     <td>Индивидуальная тренировка</td>
@@ -203,12 +261,12 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <h2 class="mb-4">О боксерском клубе <span class="text-accent">CARD</span></h2>
-                    <p>Клуб "CARD" был основан в 2015 году чемпионом России по боксу Иваном Ивановым. За это время мы выросли из маленького зала в крупный боксерский центр с 3 залами по Москве.</p>
+                    <p>Клуб "CARD" был основан в 2025 году мастером спорта по боксу Артемом Яковлевым и кондидатом в мастера спорта по боксу Плясовым Владимиром. За это время мы выросли из маленького зала в крупный боксерский центр.</p>
                     <p>Наша философия — сделать бокс доступным для всех, кто хочет изменить свою жизнь к лучшему, независимо от возраста, пола и уровня подготовки. Мы воспитываем не только силу и выносливость, но и характер.</p>
                     <ul>
                         <li>Более 1000 довольных учеников</li>
-                        <li>20 профессиональных тренеров</li>
-                        <li>3 современных зала в разных районах города</li>
+                        <li>2 профессиональных тренера</li>
+                        <li>Современный зал рядом с метро</li>
                     </ul>
                 </div>
                 <div class="col-lg-6">
@@ -249,6 +307,7 @@
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
                 <p class="mb-0">&copy; 2025 Боксерский клуб "CARD". Все права защищены.</p>
+                <p class="mb-0">prod by: Sorn221</p>
                 <div class="social-links">
                     <a href="#" class="text-white me-2"><i>VK</i></a>
                     <a href="#" class="text-white me-2"><i>TG</i></a>
