@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Боксерский клуб CARD | Тренировки по боксу в Москве</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Swiper JS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="path/to/your/favicon.png">
+    <!-- Наши стили -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="100">
+
+    <!-- Шапка с навигацией -->
+    <header>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <strong>CARD</strong> BOXING CLUB
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#main">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#advantages">Преимущества</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#for-whom">Для кого</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#prices">Цены</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">О клубе</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Основной слайдер (Главная) -->
+    <section id="main" class="hero-section">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url('assets/img/slide1.jpg');">
+                    <div class="swiper-content container">
+                        <h1>Стань сильнее в клубе <span class="text-accent">CARD</span></h1>
+                        <p class="lead">Профессиональные тренеры, современный зал и атмосфера чемпионов.</p>
+                        <a href="https://wa.me/79991234567?text=Здравствуйте! Я хочу записаться на пробную тренировку." class="btn btn-primary btn-lg" target="_blank">Записаться на тренировку</a>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url('assets/img/slide2.jpg');">
+                    <div class="swiper-content container">
+                        <h1>Индивидуальный подход</h1>
+                        <p class="lead">Мы найдем программу тренировок именно для вас, независимо от уровня подготовки.</p>
+                        <a href="https://wa.me/79991234567?text=Здравствуйте! Я хочу записаться на пробную тренировку." class="btn btn-primary btn-lg" target="_blank">Записаться на тренировку</a>
+                    </div>
+                </div>
+                <!-- Добавьте еще слайды по необходимости -->
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section id="advantages" class="py-5 bg-dark">
+        <div class="container">
+            <h2 class="text-center mb-5">Почему выбирают клуб <span class="text-accent">CARD</span>?</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="advantage-card text-center">
+                        <div class="advantage-icon mb-3">
+                            <img src="assets/icons/pro-trainers.svg" alt="Профессиональные тренеры" width="60">
+                        </div>
+                        <h4>Профессиональные тренеры</h4>
+                        <p>Мастера спорта и чемпионы с многолетним опытом coaching.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advantage-card text-center">
+                        <div class="advantage-icon mb-3">
+                            <img src="assets/icons/modern-gym.svg" alt="Современный зал" width="60">
+                        </div>
+                        <h4>Современный зал</h4>
+                        <p>Новое профессиональное оборудование и просторные раздевалки.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advantage-card text-center">
+                        <div class="advantage-icon mb-3">
+                            <img src="assets/icons/group-individual.svg" alt="Групповые и индивидуальные тренировки" width="60">
+                        </div>
+                        <h4>Групповые и индивидуальные тренировки</h4>
+                        <p>Выбирайте формат, который подходит именно вам.</p>
+                    </div>
+                </div>
+                <!-- Добавьте еще преимущества -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Для кого -->
+    <section id="for-whom" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Тренировки для всех</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="for-whom-item">
+                        <h4>Новички</h4>
+                        <p>Никогда не стояли на ринге? Мы поможем вам сделать первые шаги в боксе, поставим технику и дадим основы.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="for-whom-item">
+                        <h4>Дети и подростки</h4>
+                        <p>Развиваем дисциплину, координацию и уверенность в себе. Безопасные тренировки под присмотром опытных тренеров.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="for-whom-item">
+                        <h4>Девушки</h4>
+                        <p>Бокс — это не только сила, но и пластика, скорость и отличная кардио-нагрузка для формирования идеальной фигуры.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="for-whom-item">
+                        <h4>Опытные боксеры</h4>
+                        <p>Подготовка к соревнованиям, отработка тактики и работа над ошибками с персональным тренером.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Прайс-лист -->
+    <section id="prices" class="py-5 bg-dark">
+        <div class="container">
+            <div class="text-center mb-5">
+                <a href="https://wa.me/79991234567?text=Здравствуйте! У меня вопрос по абонементам." class="btn btn-primary btn-lg mb-4" target="_blank">Оставить заявку</a>
+                <h2>Стоимость абонементов</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="table-responsive">
+                        <table class="table table-dark table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Абонемент</th>
+                                    <th>Кол-во тренировок</th>
+                                    <th>Цена</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Разовое посещение</td>
+                                    <td>1</td>
+                                    <td>1 000 ₽</td>
+                                </tr>
+                                <tr>
+                                    <td>Стандарт</td>
+                                    <td>8</td>
+                                    <td>5 600 ₽</td>
+                                </tr>
+                                <tr>
+                                    <td>Безлимитный</td>
+                                    <td>∞</td>
+                                    <td>7 000 ₽</td>
+                                </tr>
+                                <tr>
+                                    <td>Индивидуальная тренировка</td>
+                                    <td>1</td>
+                                    <td>2 500 ₽</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="text-center text-muted mt-3">* Первая пробная тренировка — <strong>БЕСПЛАТНО</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О клубе -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="mb-4">О боксерском клубе <span class="text-accent">CARD</span></h2>
+                    <p>Клуб "CARD" был основан в 2015 году чемпионом России по боксу Иваном Ивановым. За это время мы выросли из маленького зала в крупный боксерский центр с 3 залами по Москве.</p>
+                    <p>Наша философия — сделать бокс доступным для всех, кто хочет изменить свою жизнь к лучшему, независимо от возраста, пола и уровня подготовки. Мы воспитываем не только силу и выносливость, но и характер.</p>
+                    <ul>
+                        <li>Более 1000 довольных учеников</li>
+                        <li>20 профессиональных тренеров</li>
+                        <li>3 современных зала в разных районах города</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <img src="assets/img/about-club.jpg" alt="Фото зала клуба CARD" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contacts" class="py-5 bg-dark">
+        <div class="container">
+            <h2 class="text-center mb-5">Контакты</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="contact-info">
+                        <h4>Адрес зала:</h4>
+                        <p>г. Екатеринбург</p>
+                    </div>
+                    <div class="contact-info mt-4">
+                        <h4>Телефон:</h4>
+                        <p><a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
+                        <h4>Email:</h4>
+                        <p><a href="mailto:info@cardboxing.ru">info@cardboxing.ru</a></p>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="map-container">
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <p class="mb-0">&copy; 2025 Боксерский клуб "CARD". Все права защищены.</p>
+                <div class="social-links">
+                    <a href="#" class="text-white me-2"><i>VK</i></a>
+                    <a href="#" class="text-white me-2"><i>TG</i></a>
+                    <a href="#" class="text-white"><i>WA</i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Наш скрипт -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
