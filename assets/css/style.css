@@ -249,3 +249,17 @@ footer {
 .navbar-nav .nav-link:hover::after {
     width: 60px;
 }
+
+/* Уменьшение фото тренеров на мобильных */
+@media (max-width: 768px) {
+    .coach-photo {
+        transform: scale(0.7); /* Уменьшаем на 30% */
+        margin: -15% auto; /* Компенсируем отступы */
+        width: 70%; /* Соответственно уменьшаем ширину */
+    }
+    
+    .coach-photo img {
+        border-radius: 10px; /* Добавляем скругление для красоты */
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+}
